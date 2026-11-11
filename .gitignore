@@ -22,3 +22,11 @@ desktop.ini
 
 # Claude Code local settings
 .claude/
+
+# Not part of the repo: lecture slides (top level) and lab01
+/*.pdf
+/lab01/
+
+# Downloaded datasets (MNIST cache, re-downloaded automatically)
+lab03/data/sklearn_cache/
+lab03/ml-latest-small/Untitled-1.ipynb
